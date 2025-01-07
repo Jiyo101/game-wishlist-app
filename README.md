@@ -10,7 +10,7 @@ Game Wishlist App es una aplicación web y móvil que permite a los usuarios ges
 ## Tecnologías
 Este proyecto utiliza las siguientes tecnologías:
 - **Frontend Web**: React
-- **Frontend Móvil**: React Native (o Flutter, dependiendo de la elección final)
+- **Frontend Móvil**: React Native
 - **Backend**: Node.js con Express
 - **Base de Datos**: PostgreSQL
 
