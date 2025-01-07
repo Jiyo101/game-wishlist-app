@@ -1,0 +1,29 @@
+# Node.js
+node_modules/         # Dependencias instaladas del backend o frontend.
+npm-debug.log*        # Archivos de depuración generados por npm.
+yarn-debug.log*       # Archivos de depuración generados por yarn.
+yarn-error.log*
+
+# Logs
+logs/                 # Carpeta de logs.
+*.log                 # Cualquier archivo de log.
+
+# Configuración de entorno
+.env                  # Archivo que contiene variables privadas como claves de API.
+
+# Sistema operativo
+.DS_Store             # Archivo generado por macOS.
+Thumbs.db             # Archivo generado por Windows.
+
+# IDEs y editores
+.vscode/              # Configuraciones específicas de Visual Studio Code.
+.idea/                # Configuraciones de IntelliJ IDEA o WebStorm.
+*.iml                 # Archivos de configuración de proyectos de JetBrains.
+
+# React/React Native
+build/                # Carpeta generada por el proceso de construcción del frontend.
+dist/                 # Otra carpeta de construcción.
+coverage/             # Archivos de cobertura generados por pruebas.
+
+# Docker
+docker-compose.override.yml
