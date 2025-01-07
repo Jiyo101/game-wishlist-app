@@ -29,4 +29,81 @@ Antes de empezar, asegúrate de tener instalados:
 ## Instalación
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/game-wishlist-app.git
+   git clone https://github.com/jiyo101/game-wishlist-app.git
+   ```
+2. Accede al directorio del proyecto:
+   ```
+   cd game-wishlist-app
+   ```
+3. Configura las dependencias del backend:
+   - Ve al directorio del backend:
+   ```
+   cd backend
+   ```
+   - Instala las dependencias:
+   ```
+   npm install
+   ```
+4. Configura las dependencias del frontend:
+   - Ve al directorio del frontend:
+   ```
+   cd ../frontend
+   ```
+   - Instala las dependencias:
+   ```
+   npm install
+   ```
+
+## Uso
+1. Configura la base de datos:
+   - Crea un archivo .env en el directorio del backend con las credenciales de tu base de datos. Ejemplo:
+   ```
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USER=tu_usuario
+   DB_PASSWORD=tu_contraseña
+   DB_NAME=game_wishlist
+   ```
+2. Inicia el backend:
+   - Ve al directorio del backend (si no estás ya ahí):
+   ```
+   cd backend
+   ```
+   - Inicia el servidor:
+   ```
+   npm start
+   ```
+3. Inicia el frontend:
+   - Ve al directorio del frontend:
+   ```
+   cd ../frontend
+   ```
+   - Inicia la aplicación:
+   ```
+   npm start
+   ```
+
+## Organización del proyecto
+El proyecto está dividido en los siguientes directorios:
+- **`backend/`**: Contiene el código del servidor y la API.
+- **`frontend/`**: Contiene el código del cliente web.
+- **`mobile/`**: (Opcional) Contendrá el código de la app móvil si decides desarrollarla.
+
+## Contribución
+Si deseas contribuir, abre un issue o envía un pull request. ¡Toda ayuda es bienvenida!
+
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+
+
+
+
+
+
+
+
+
+
+
+   
