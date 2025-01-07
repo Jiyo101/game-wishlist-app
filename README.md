@@ -37,51 +37,51 @@ Antes de empezar, asegúrate de tener instalados:
    ```
 3. Configura las dependencias del backend:
    - Ve al directorio del backend:
-   ```
-   cd backend
-   ```
+      ```
+      cd backend
+      ```
    - Instala las dependencias:
-   ```
-   npm install
-   ```
+      ```
+      npm install
+      ```
 4. Configura las dependencias del frontend:
    - Ve al directorio del frontend:
-   ```
-   cd ../frontend
-   ```
+      ```
+      cd ../frontend
+      ```
    - Instala las dependencias:
-   ```
-   npm install
-   ```
+      ```
+      npm install
+      ```
 
 ## Uso
 1. Configura la base de datos:
    - Crea un archivo .env en el directorio del backend con las credenciales de tu base de datos. Ejemplo:
-   ```
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_USER=tu_usuario
-   DB_PASSWORD=tu_contraseña
-   DB_NAME=game_wishlist
-   ```
+      ```
+      DB_HOST=localhost
+      DB_PORT=5432
+      DB_USER=tu_usuario
+      DB_PASSWORD=tu_contraseña
+      DB_NAME=game_wishlist
+      ```
 2. Inicia el backend:
    - Ve al directorio del backend (si no estás ya ahí):
-   ```
-   cd backend
-   ```
+      ```
+      cd backend
+      ```
    - Inicia el servidor:
-   ```
-   npm start
-   ```
+      ```
+      npm start
+      ```
 3. Inicia el frontend:
    - Ve al directorio del frontend:
-   ```
-   cd ../frontend
-   ```
+      ```
+      cd ../frontend
+      ```
    - Inicia la aplicación:
-   ```
-   npm start
-   ```
+      ```
+      npm start
+      ```
 
 ## Organización del proyecto
 El proyecto está dividido en los siguientes directorios:
