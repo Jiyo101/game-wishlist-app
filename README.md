@@ -94,16 +94,3 @@ Si deseas contribuir, abre un issue o envía un pull request. ¡Toda ayuda es bi
 
 ## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-
-
-
-
-
-
-
-
-
-
-
-   
